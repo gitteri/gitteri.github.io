@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onirojen - Dark Melodic Techno Funk Artist</title>
+    <meta name="description" content="Official link page for Onirojen, a dark melodic techno funk artist. Find links to music, videos, and social media.">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "1586666352226879");
+      fbq("track", "PageView");
+    </script>
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        src="https://www.facebook.com/tr?id=1586666352226879&ev=PageView
+    &noscript=1"
+      />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+    <style>
+      :root {
+        --primary-color: #1a1a1a;
+        --secondary-color: #333;
+        --accent-color: #007bff;
+        --text-color: #ffffff;
+        --transition-speed: 0.3s;
+      }
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background-image: linear-gradient(to bottom right, #1a1a1a, #333);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+        min-height: 100vh;
+        margin: 0;
+        color: var(--text-color);
+      }
+      .profile {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+      .profile img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        border: 4px solid var(--accent-color);
+        box-shadow: 0 0 20px rgba(0, 123, 255, 0.3);
+        transition: transform var(--transition-speed);
+      }
+      .profile img:hover {
+        transform: scale(1.05);
+      }
+      .profile h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+      }
+      .profile p {
+        font-size: 1.2rem;
+        opacity: 0.8;
+      }
+      .links {
+        width: 100%;
+        max-width: 600px;
+      }
+      .link-button {
+        display: block;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        margin: 15px 0;
+        border-radius: 12px;
+        text-decoration: none;
+        color: var(--text-color);
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: 500;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all var(--transition-speed);
+        border: 2px solid transparent;
+      }
+      .link-button:hover,
+      .link-button:focus {
+        transform: translateY(-5px);
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: var(--accent-color);
+        box-shadow: 0 6px 12px rgba(0, 123, 255, 0.2);
+      }
+      @keyframes pulse {
+        0% {
+          box-shadow: 0 4px 6px rgba(0, 123, 255, 0.1);
+          transform: scale(1);
+        }
+        50% {
+          box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3);
+          transform: scale(1.02);
+        }
+        100% {
+          box-shadow: 0 4px 6px rgba(0, 123, 255, 0.1);
+          transform: scale(1);
+        }
+      }
+
+      .featured {
+        background: linear-gradient(45deg, rgba(0, 123, 255, 0.2), rgba(255, 255, 255, 0.1));
+        border: 2px solid rgba(0, 123, 255, 0.5);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .featured::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(255, 255, 255, 0.2),
+          transparent
+        );
+        animation: shine 3s infinite;
+      }
+
+      @keyframes shine {
+        0% {
+          left: -100%;
+        }
+        20% {
+          left: 100%;
+        }
+        100% {
+          left: 100%;
+        }
+      }
+      .social-links {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+      }
+      .social-links a {
+        color: var(--text-color);
+        font-size: 28px;
+        margin: 0 15px;
+        transition: all var(--transition-speed);
+      }
+      .social-links a:hover,
+      .social-links a:focus {
+        color: var(--accent-color);
+        transform: scale(1.2);
+      }
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border-width: 0;
+      }
+      @media (max-width: 600px) {
+        body {
+          padding: 20px 10px;
+        }
+        .profile img {
+          width: 150px;
+          height: 150px;
+        }
+        .profile h1 {
+          font-size: 2rem;
+        }
+        .profile p {
+          font-size: 1rem;
+        }
+        .link-button {
+          padding: 15px;
+          font-size: 1rem;
+        }
+        .social-links a {
+          font-size: 24px;
+          margin: 0 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="profile" role="banner">
+        <img
+          src="https://yt3.googleusercontent.com/yKY4SBKzKU6W41TIc2rE48A7gvGNwdzZoD7gTRax52FFq9KfwoWaDSteBcxDRoZ_YhnhZZ62LyM=s160-c-k-c0x00ffffff-no-rj"
+          alt="Onirojen Profile Picture"
+        />
+        <h1>Onirojen</h1>
+        <p>⇜ dark melodic techno funk ⇝</p>
+      </div>
+    </header>
+
+    <main>
+      <nav class="links" aria-label="Main navigation">
+        <a href="https://www.youtube.com/watch?v=cly_kwKgV0c" class="link-button featured" style="position: relative; animation: pulse 2s infinite;">
+          Godzilla Finds Love Music Video
+        </a>
+        <a href="https://open.spotify.com/artist/0osGQAOCe28VIORTfL9Gwz" class="link-button">Spotify</a>
+        <a href="https://music.apple.com/us/artist/onirojen/1774424827" class="link-button">Apple Music</a>
+        <a href="https://www.youtube.com/channel/UCOhDTn3GbmY2peJM1h6XkRg" class="link-button">YouTube</a>
+        <a href="https://artists.landr.com/055855879011" class="link-button">Other Streaming Services</a>
+      </nav>
+    </main>
+
+    <footer>
+      <nav class="social-links" aria-label="Social media links">
+        <a href="https://instagram.com/onirojen" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+          <span class="sr-only">Instagram</span>
+        </a>
+        <a href="https://www.youtube.com/channel/UCOhDTn3GbmY2peJM1h6XkRg" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-youtube" aria-hidden="true"></i>
+          <span class="sr-only">YouTube</span>
+        </a>
+        <a href="https://open.spotify.com/artist/0osGQAOCe28VIORTfL9Gwz" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-spotify" aria-hidden="true"></i>
+          <span class="sr-only">Spotify</span>
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>
